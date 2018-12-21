@@ -1,7 +1,7 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/PYKit
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/PYMethodParser" "${PODS_CONFIGURATION_BUILD_DIR}/PYTransitionAnimater"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/PYCountDownHandler" "${PODS_CONFIGURATION_BUILD_DIR}/PYGradientView" "${PODS_CONFIGURATION_BUILD_DIR}/PYMethodParser" "${PODS_CONFIGURATION_BUILD_DIR}/PYTransitionAnimater"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-OTHER_LDFLAGS = $(inherited) -framework "Foundation" -framework "Masonry" -framework "PYMethodParser" -framework "PYTransitionAnimater" -framework "UIKit"
+OTHER_LDFLAGS = $(inherited) -framework "Foundation" -framework "Masonry" -framework "PYCountDownHandler" -framework "PYGradientView" -framework "PYMethodParser" -framework "PYTransitionAnimater" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}

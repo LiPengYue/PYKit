@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "86AB71C93F1DB5DA85E80B5474818F1A"
+               BlueprintIdentifier = "4321E451A83C4640DAB023367572A7F8"
                BlueprintName = "PYKit"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "PYKit.framework">

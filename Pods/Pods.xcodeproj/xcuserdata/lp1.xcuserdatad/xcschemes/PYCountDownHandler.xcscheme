@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E3FAB1968ACA5689958E6E0F423F7112"
-               BlueprintName = "PYMethodParser"
+               BlueprintIdentifier = "46224F5D3A5E21EE43CE6A271F74A25A"
+               BlueprintName = "PYCountDownHandler"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "PYMethodParser.framework">
+               BuildableName = "PYCountDownHandler.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

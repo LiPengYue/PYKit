@@ -154,12 +154,16 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/PYCountDownHandler/PYCountDownHandler.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/PYGradientView/PYGradientView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PYKit/PYKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PYMethodParser/PYMethodParser.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PYTransitionAnimater/PYTransitionAnimater.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/PYCountDownHandler/PYCountDownHandler.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/PYGradientView/PYGradientView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PYKit/PYKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PYMethodParser/PYMethodParser.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PYTransitionAnimater/PYTransitionAnimater.framework"
