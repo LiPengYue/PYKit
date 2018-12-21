@@ -9,7 +9,7 @@
 #import "PYShadowAndCornerReadiusTableViewCell.h"
 #import "BaseFilletShadowView.h"
 #import "PYMaskToBoundsView.h"
-#import <PYKit/PYKitHeaders.h>
+#import <PYKitHeaders.h>
 
 @interface PYShadowAndCornerReadiusTableViewCell ()
 @property (nonatomic,strong) UIImageView *imageV;

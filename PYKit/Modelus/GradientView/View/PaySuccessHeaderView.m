@@ -7,7 +7,7 @@
 //
 
 #import "PaySuccessHeaderView.h"
-#import <PYKit/PYKitHeaders.h>
+#import <PYKitHeaders.h>
 @interface PaySuccessHeaderView()
 @property (nonatomic,strong) UILabel *titleLabel;
 @property (nonatomic,strong) UILabel *moneyLabel;

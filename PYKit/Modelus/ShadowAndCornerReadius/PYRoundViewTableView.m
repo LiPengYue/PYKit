@@ -7,7 +7,7 @@
 //
 
 #import "PYRoundViewTableView.h"
-#import <PYKit/NSObject+SignalHandler.h>
+#import <NSObject+SignalHandler.h>
 #import "PYShadowAndCornerReadiusTableViewCell.h"
 
 @interface PYRoundViewTableView()

@@ -7,7 +7,7 @@
 //
 
 #import "PYStringSizeViewController.h"
-#import <PYKit/UIImage+ChangeColor.h>
+#import <UIImage+ChangeColor.h>
 @interface PYStringSizeViewController ()
 @property (nonatomic,strong) UIView *containerAnimationView;
 @property (nonatomic,strong) UIButton *button;

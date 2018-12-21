@@ -7,7 +7,7 @@
 //
 
 #import "PaySuccessGuessYouLikeCollectionViewCell.h"
-#import <PYKit/PYKitHeaders.h>
+#import <PYKitHeaders.h>
 @interface PaySuccessGuessYouLikeCollectionViewCell ()
 @property (nonatomic,strong) UIImageView *goodsImageView;
 @property (nonatomic,strong) UILabel *titleLabel;

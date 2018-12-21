@@ -7,7 +7,7 @@
 //
 
 #import "PYBaseViewController.h"
-#import <PYKit/PYKitHeaders.h>
+#import <PYKitHeaders.h>
 @interface PYTextViewAndLabelController : PYBaseViewController
 
 @end

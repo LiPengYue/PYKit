@@ -8,7 +8,7 @@
 
 #import "PYViewController.h"
 #import "PYBaseNavigationBarView.h"
-#import <PYKit/PYKitHeaders.h>
+#import <PYKitHeaders.h>
 #import "PYBaseTableViewCell.h"
 static NSString *const CELLID = @"CELID";
 
@@ -120,7 +120,8 @@ CAAnimationDelegate
                        @"PYShadowAndCornerReadiusViewController",
                        @"PYMethodParserViewController",
                        @"PaySuccessViewController",
-                       @"PYTransitionAnimaterViewController"
+                       @"PYTransitionAnimaterViewController",
+                       @"PYGradientViewController"
                        ];
 }
 

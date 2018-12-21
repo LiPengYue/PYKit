@@ -6,7 +6,7 @@
 //  Copyright © 2018年 LiPengYue. All rights reserved.
 //
 
-#import <PYKit/PYKitHeaders.h>
+#import <PYKitHeaders.h>
 
 @interface PYStringSizeViewController : BasePresentViewController
 

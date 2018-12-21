@@ -9,7 +9,7 @@
 #import "PaySuccessViewController.h"
 #import "PaySuccessHeaderView.h"
 #import "PaySuccessGuessYouLikeCollectionView.h"
-#import <PYKit/PYKitHeaders.h>
+#import <PYKitHeaders.h>
 @interface PaySuccessViewController ()
 @property (nonatomic,strong) PaySuccessHeaderView *headerView;
 @property (nonatomic,strong) PaySuccessGuessYouLikeCollectionView *collectionView;

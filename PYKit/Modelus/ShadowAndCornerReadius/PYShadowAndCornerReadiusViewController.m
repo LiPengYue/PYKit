@@ -9,7 +9,7 @@
 #import "PYShadowAndCornerReadiusViewController.h"
 #import "PYMaskToBoundsTableView.h"
 #import "PYRoundViewTableView.h"
-#import <PYKit/PYKitHeaders.h>
+#import <PYKitHeaders.h>
 #import "PYLayoutSudokuViewHandler.h"
 
 

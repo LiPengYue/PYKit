@@ -9,7 +9,7 @@
 #import "PaySuccessGuessYouLikeCollectionView.h"
 #import "PYPaySuccessCuessYouLikeCollectionReusableView.h"
 #import "PaySuccessGuessYouLikeCollectionViewCell.h"
-#import <PYKit/PYKitHeaders.h>
+#import <PYKitHeaders.h>
 @interface PaySuccessGuessYouLikeCollectionView ()
 <
 UICollectionViewDelegate,

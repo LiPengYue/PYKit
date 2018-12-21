@@ -7,7 +7,7 @@
 //
 
 #import "PYTextViewAndLabelController.h"
-#import <PYKit/PYKitHeaders.h>
+#import <PYKitHeaders.h>
 @interface PYTextViewAndLabelController ()<UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic,strong) UITableView *tableView;
 @property (nonatomic,strong) NSArray <NSString *>*dataArray;
