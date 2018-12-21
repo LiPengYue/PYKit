@@ -1,0 +1,6 @@
+framework module PYTransitionAnimater {
+  umbrella header "PYTransitionAnimater-umbrella.h"
+
+  export *
+  module * { export * }
+}

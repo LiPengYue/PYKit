@@ -1,0 +1,6 @@
+framework module PYMethodParser {
+  umbrella header "PYMethodParser-umbrella.h"
+
+  export *
+  module * { export * }
+}

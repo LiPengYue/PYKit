@@ -1,0 +1,34 @@
+{
+  "name": "PYKit",
+  "version": "0.1.0",
+  "summary": "封装的一些小工具",
+  "description": "里面有关于一些链式编程思想的尝试\n以及一些常用功能的封装",
+  "homepage": "https://github.com/LiPengYue/PYKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LiPengYue": "702029772@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/LiPengYue/PYKit.git",
+    "tag": "0.1.0",
+    "submodules": true
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PYKit/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "PYTransitionAnimater": [
+
+    ],
+    "PYMethodParser": [
+
+    ]
+  }
+}

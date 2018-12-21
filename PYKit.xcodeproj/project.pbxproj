@@ -1,0 +1,911 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CAE8331EA16659B826D0AC1 /* Pods_PYKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C42CF2272F5F68C8B439E07 /* Pods_PYKit_Example.framework */; };
+		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
+		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		6003F59E195388D20070C39A /* PYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* PYAppDelegate.m */; };
+		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
+		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		860C2CBD217DDD2D00298C87 /* PYStringSizeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 860C2CBC217DDD2D00298C87 /* PYStringSizeVC.m */; };
+		861889C021B632FA00DEDA35 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 861889BF21B632FA00DEDA35 /* BaseNavigationController.m */; };
+		861E467C216E24060061737F /* PYFoldButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 861E467B216E24060061737F /* PYFoldButtonsViewController.m */; };
+		861E467F216E241D0061737F /* PYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 861E467E216E241D0061737F /* PYViewController.m */; };
+		861E4684216E29130061737F /* PYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 861E4683216E29130061737F /* PYBaseViewController.m */; };
+		8669A76C21A51EE20080E291 /* PYMaskToBoundsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8669A76B21A51EE20080E291 /* PYMaskToBoundsView.m */; };
+		8669A76F21A520680080E291 /* PYArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 8669A76E21A520680080E291 /* PYArray.m */; };
+		8669A77C21A811E30080E291 /* PYMethodParserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8669A77B21A811E30080E291 /* PYMethodParserViewController.m */; };
+		8669A79A21A9649C0080E291 /* PYGlobalMethodNotFontHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8669A79921A9649C0080E291 /* PYGlobalMethodNotFontHandler.m */; };
+		868237C421A3AB94004F8B8A /* PYAnalysisManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 868237C321A3AB94004F8B8A /* PYAnalysisManager.m */; };
+		86B3C83D21B6581E0028E0CD /* PYBaseViewControllerViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B3C83C21B6581E0028E0CD /* PYBaseViewControllerViewConfig.m */; };
+		86B3C84521B662F20028E0CD /* PYBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B3C84421B662F20028E0CD /* PYBaseTableViewCell.m */; };
+		86B8F344219D483400A90305 /* PYMaskToBoundsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B8F343219D483400A90305 /* PYMaskToBoundsTableView.m */; };
+		86B8F348219D49B300A90305 /* PYRoundViewTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B8F347219D49B300A90305 /* PYRoundViewTableView.m */; };
+		86BD2442219AC33F007BEC31 /* PYStringSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BD2441219AC33F007BEC31 /* PYStringSizeViewController.m */; };
+		86C1A3A021992F7400908B7C /* PYTransitionAnimaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1A39F21992F7400908B7C /* PYTransitionAnimaterViewController.m */; };
+		86C8F157219C25C00095C3E0 /* PYShadowAndCornerReadiusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C8F156219C25C00095C3E0 /* PYShadowAndCornerReadiusViewController.m */; };
+		86C8F15A219C26430095C3E0 /* PYShadowAndCornerReadiusTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C8F159219C26430095C3E0 /* PYShadowAndCornerReadiusTableViewCell.m */; };
+		86D2EA3821745BB90089551E /* PYTextViewAndLabelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D2EA3721745BB90089551E /* PYTextViewAndLabelController.m */; };
+		86D2EA442176E6250089551E /* PYImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D2EA432176E6250089551E /* PYImageView.m */; };
+		86EDA46021ABEED4004408A1 /* PaySuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EDA45A21ABEED4004408A1 /* PaySuccessViewController.m */; };
+		86EDA46121ABEED4004408A1 /* PaySuccessHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EDA45C21ABEED4004408A1 /* PaySuccessHeaderView.m */; };
+		86EDA46221ABEED4004408A1 /* PaySuccessGuessYouLikeCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EDA45D21ABEED4004408A1 /* PaySuccessGuessYouLikeCollectionView.m */; };
+		86EDA46621ABEF90004408A1 /* PaySuccessGuessYouLikeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EDA46521ABEF90004408A1 /* PaySuccessGuessYouLikeCollectionViewCell.m */; };
+		86EDA46921ACE174004408A1 /* PYPaySuccessCuessYouLikeCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EDA46821ACE174004408A1 /* PYPaySuccessCuessYouLikeCollectionReusableView.m */; };
+		86EDA48121ACF79D004408A1 /* PYGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EDA48021ACF79D004408A1 /* PYGradientView.m */; };
+		8EB91F321DEE2A738B27250B /* Pods_PYKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6765F4C9875318948AB25DE8 /* Pods_PYKit_Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = PYKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		025AD06D0F33B365906581F9 /* Pods-PYKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PYKit_Example/Pods-PYKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0C42CF2272F5F68C8B439E07 /* Pods_PYKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PYKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F8CB156B3A14AA035CE0C99 /* Pods-PYKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PYKit_Example/Pods-PYKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* PYKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F595195388D20070C39A /* PYKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PYKit-Info.plist"; sourceTree = "<group>"; };
+		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* PYKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PYKit-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* PYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* PYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYAppDelegate.m; sourceTree = "<group>"; };
+		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6003F5AE195388D20070C39A /* PYKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6765F4C9875318948AB25DE8 /* Pods_PYKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PYKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A8254E8DE32EA424218A4BE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7109D373D24FF11A8180B215 /* Pods-PYKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PYKit_Tests/Pods-PYKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		860C2CBB217DDD2D00298C87 /* PYStringSizeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYStringSizeVC.h; sourceTree = "<group>"; };
+		860C2CBC217DDD2D00298C87 /* PYStringSizeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYStringSizeVC.m; sourceTree = "<group>"; };
+		861889BE21B632FA00DEDA35 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		861889BF21B632FA00DEDA35 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		861E467A216E24060061737F /* PYFoldButtonsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYFoldButtonsViewController.h; sourceTree = "<group>"; };
+		861E467B216E24060061737F /* PYFoldButtonsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYFoldButtonsViewController.m; sourceTree = "<group>"; };
+		861E467D216E241D0061737F /* PYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYViewController.h; sourceTree = "<group>"; };
+		861E467E216E241D0061737F /* PYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYViewController.m; sourceTree = "<group>"; };
+		861E4682216E29130061737F /* PYBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYBaseViewController.h; sourceTree = "<group>"; };
+		861E4683216E29130061737F /* PYBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYBaseViewController.m; sourceTree = "<group>"; };
+		8669A76A21A51EE20080E291 /* PYMaskToBoundsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYMaskToBoundsView.h; sourceTree = "<group>"; };
+		8669A76B21A51EE20080E291 /* PYMaskToBoundsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYMaskToBoundsView.m; sourceTree = "<group>"; };
+		8669A76D21A520680080E291 /* PYArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYArray.h; sourceTree = "<group>"; };
+		8669A76E21A520680080E291 /* PYArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYArray.m; sourceTree = "<group>"; };
+		8669A77A21A811E30080E291 /* PYMethodParserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYMethodParserViewController.h; sourceTree = "<group>"; };
+		8669A77B21A811E30080E291 /* PYMethodParserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYMethodParserViewController.m; sourceTree = "<group>"; };
+		8669A79821A9649C0080E291 /* PYGlobalMethodNotFontHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYGlobalMethodNotFontHandler.h; sourceTree = "<group>"; };
+		8669A79921A9649C0080E291 /* PYGlobalMethodNotFontHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYGlobalMethodNotFontHandler.m; sourceTree = "<group>"; };
+		868237C221A3AB94004F8B8A /* PYAnalysisManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYAnalysisManager.h; sourceTree = "<group>"; };
+		868237C321A3AB94004F8B8A /* PYAnalysisManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYAnalysisManager.m; sourceTree = "<group>"; };
+		86B3C83B21B6581E0028E0CD /* PYBaseViewControllerViewConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYBaseViewControllerViewConfig.h; sourceTree = "<group>"; };
+		86B3C83C21B6581E0028E0CD /* PYBaseViewControllerViewConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYBaseViewControllerViewConfig.m; sourceTree = "<group>"; };
+		86B3C84321B662F20028E0CD /* PYBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYBaseTableViewCell.h; sourceTree = "<group>"; };
+		86B3C84421B662F20028E0CD /* PYBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYBaseTableViewCell.m; sourceTree = "<group>"; };
+		86B8F342219D483400A90305 /* PYMaskToBoundsTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYMaskToBoundsTableView.h; sourceTree = "<group>"; };
+		86B8F343219D483400A90305 /* PYMaskToBoundsTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYMaskToBoundsTableView.m; sourceTree = "<group>"; };
+		86B8F346219D49B300A90305 /* PYRoundViewTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYRoundViewTableView.h; sourceTree = "<group>"; };
+		86B8F347219D49B300A90305 /* PYRoundViewTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYRoundViewTableView.m; sourceTree = "<group>"; };
+		86BD2440219AC33F007BEC31 /* PYStringSizeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYStringSizeViewController.h; sourceTree = "<group>"; };
+		86BD2441219AC33F007BEC31 /* PYStringSizeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYStringSizeViewController.m; sourceTree = "<group>"; };
+		86C1A39E21992F7400908B7C /* PYTransitionAnimaterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYTransitionAnimaterViewController.h; sourceTree = "<group>"; };
+		86C1A39F21992F7400908B7C /* PYTransitionAnimaterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYTransitionAnimaterViewController.m; sourceTree = "<group>"; };
+		86C8F155219C25C00095C3E0 /* PYShadowAndCornerReadiusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYShadowAndCornerReadiusViewController.h; sourceTree = "<group>"; };
+		86C8F156219C25C00095C3E0 /* PYShadowAndCornerReadiusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYShadowAndCornerReadiusViewController.m; sourceTree = "<group>"; };
+		86C8F158219C26430095C3E0 /* PYShadowAndCornerReadiusTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYShadowAndCornerReadiusTableViewCell.h; sourceTree = "<group>"; };
+		86C8F159219C26430095C3E0 /* PYShadowAndCornerReadiusTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYShadowAndCornerReadiusTableViewCell.m; sourceTree = "<group>"; };
+		86D2EA3621745BB90089551E /* PYTextViewAndLabelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYTextViewAndLabelController.h; sourceTree = "<group>"; };
+		86D2EA3721745BB90089551E /* PYTextViewAndLabelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYTextViewAndLabelController.m; sourceTree = "<group>"; };
+		86D2EA422176E6250089551E /* PYImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYImageView.h; sourceTree = "<group>"; };
+		86D2EA432176E6250089551E /* PYImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYImageView.m; sourceTree = "<group>"; };
+		86EDA45921ABEED4004408A1 /* PaySuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaySuccessViewController.h; sourceTree = "<group>"; };
+		86EDA45A21ABEED4004408A1 /* PaySuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaySuccessViewController.m; sourceTree = "<group>"; };
+		86EDA45C21ABEED4004408A1 /* PaySuccessHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaySuccessHeaderView.m; sourceTree = "<group>"; };
+		86EDA45D21ABEED4004408A1 /* PaySuccessGuessYouLikeCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaySuccessGuessYouLikeCollectionView.m; sourceTree = "<group>"; };
+		86EDA45E21ABEED4004408A1 /* PaySuccessHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaySuccessHeaderView.h; sourceTree = "<group>"; };
+		86EDA45F21ABEED4004408A1 /* PaySuccessGuessYouLikeCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaySuccessGuessYouLikeCollectionView.h; sourceTree = "<group>"; };
+		86EDA46421ABEF90004408A1 /* PaySuccessGuessYouLikeCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaySuccessGuessYouLikeCollectionViewCell.h; sourceTree = "<group>"; };
+		86EDA46521ABEF90004408A1 /* PaySuccessGuessYouLikeCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaySuccessGuessYouLikeCollectionViewCell.m; sourceTree = "<group>"; };
+		86EDA46721ACE174004408A1 /* PYPaySuccessCuessYouLikeCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYPaySuccessCuessYouLikeCollectionReusableView.h; sourceTree = "<group>"; };
+		86EDA46821ACE174004408A1 /* PYPaySuccessCuessYouLikeCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYPaySuccessCuessYouLikeCollectionReusableView.m; sourceTree = "<group>"; };
+		86EDA47F21ACF79D004408A1 /* PYGradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYGradientView.h; sourceTree = "<group>"; };
+		86EDA48021ACF79D004408A1 /* PYGradientView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYGradientView.m; sourceTree = "<group>"; };
+		D660458DD37CCA87E5F0EFE2 /* Pods-PYKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PYKit_Tests/Pods-PYKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D90BD828CBBE6573FD1DB554 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F5C2A4E944851E5FCEABFDFC /* PYKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PYKit.podspec; path = ../PYKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				0CAE8331EA16659B826D0AC1 /* Pods_PYKit_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AB195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				8EB91F321DEE2A738B27250B /* Pods_PYKit_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F593195388D20070C39A /* Example for PYKit */,
+				6003F5B5195388D20070C39A /* Tests */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				6003F58B195388D20070C39A /* Products */,
+				8BEDEACE9E71D34F1F89545F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58A195388D20070C39A /* PYKit_Example.app */,
+				6003F5AE195388D20070C39A /* PYKit_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58D195388D20070C39A /* Foundation.framework */,
+				6003F58F195388D20070C39A /* CoreGraphics.framework */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				0C42CF2272F5F68C8B439E07 /* Pods_PYKit_Example.framework */,
+				6765F4C9875318948AB25DE8 /* Pods_PYKit_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F593195388D20070C39A /* Example for PYKit */ = {
+			isa = PBXGroup;
+			children = (
+				861E467D216E241D0061737F /* PYViewController.h */,
+				861E467E216E241D0061737F /* PYViewController.m */,
+				861E4685216E29160061737F /* Base */,
+				861E4681216E285F0061737F /* Modelus */,
+				861E4680216E28240061737F /* Ther */,
+			);
+			name = "Example for PYKit";
+			path = PYKit;
+			sourceTree = "<group>";
+		};
+		6003F594195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F595195388D20070C39A /* PYKit-Info.plist */,
+				6003F596195388D20070C39A /* InfoPlist.strings */,
+				6003F599195388D20070C39A /* main.m */,
+				6003F59B195388D20070C39A /* PYKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		6003F5B5195388D20070C39A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5BB195388D20070C39A /* Tests.m */,
+				6003F5B6195388D20070C39A /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6003F5B6195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5B7195388D20070C39A /* Tests-Info.plist */,
+				6003F5B8195388D20070C39A /* InfoPlist.strings */,
+				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				F5C2A4E944851E5FCEABFDFC /* PYKit.podspec */,
+				6A8254E8DE32EA424218A4BE /* README.md */,
+				D90BD828CBBE6573FD1DB554 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		860C2CB9217DDC8E00298C87 /* StringSizeVC */ = {
+			isa = PBXGroup;
+			children = (
+				860C2CBB217DDD2D00298C87 /* PYStringSizeVC.h */,
+				860C2CBC217DDD2D00298C87 /* PYStringSizeVC.m */,
+			);
+			path = StringSizeVC;
+			sourceTree = "<group>";
+		};
+		860C2CBA217DDCD600298C87 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		861889BA21B632A900DEDA35 /* NAV */ = {
+			isa = PBXGroup;
+			children = (
+				861889BE21B632FA00DEDA35 /* BaseNavigationController.h */,
+				861889BF21B632FA00DEDA35 /* BaseNavigationController.m */,
+			);
+			path = NAV;
+			sourceTree = "<group>";
+		};
+		861E4679216E23E80061737F /* FoldButtonsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				861E467A216E24060061737F /* PYFoldButtonsViewController.h */,
+				861E467B216E24060061737F /* PYFoldButtonsViewController.m */,
+				86D2EA422176E6250089551E /* PYImageView.h */,
+				86D2EA432176E6250089551E /* PYImageView.m */,
+			);
+			path = FoldButtonsViewController;
+			sourceTree = "<group>";
+		};
+		861E4680216E28240061737F /* Ther */ = {
+			isa = PBXGroup;
+			children = (
+				6003F59C195388D20070C39A /* PYAppDelegate.h */,
+				6003F59D195388D20070C39A /* PYAppDelegate.m */,
+				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				6003F594195388D20070C39A /* Supporting Files */,
+			);
+			path = Ther;
+			sourceTree = "<group>";
+		};
+		861E4681216E285F0061737F /* Modelus */ = {
+			isa = PBXGroup;
+			children = (
+				86EDA45821ABEEBA004408A1 /* GradientView */,
+				8669A77921A811C60080E291 /* PYMethodParser */,
+				86C8F154219C25970095C3E0 /* ShadowAndCornerReadius */,
+				86C1A39D21992F2900908B7C /* TransitionAnimater */,
+				86D2EA3521745B870089551E /* TextViewAndLabel */,
+				861E4679216E23E80061737F /* FoldButtonsViewController */,
+			);
+			path = Modelus;
+			sourceTree = "<group>";
+		};
+		861E4685216E29160061737F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				86B3C84621B662FF0028E0CD /* UIView */,
+				861889BA21B632A900DEDA35 /* NAV */,
+				861E4682216E29130061737F /* PYBaseViewController.h */,
+				861E4683216E29130061737F /* PYBaseViewController.m */,
+				86B3C83F21B658860028E0CD /* BaseViewControllerConfigs */,
+				86C8F14A219C24610095C3E0 /* CutRoundCorner */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8669A77921A811C60080E291 /* PYMethodParser */ = {
+			isa = PBXGroup;
+			children = (
+				8669A79821A9649C0080E291 /* PYGlobalMethodNotFontHandler.h */,
+				8669A79921A9649C0080E291 /* PYGlobalMethodNotFontHandler.m */,
+				8669A77A21A811E30080E291 /* PYMethodParserViewController.h */,
+				8669A77B21A811E30080E291 /* PYMethodParserViewController.m */,
+			);
+			path = PYMethodParser;
+			sourceTree = "<group>";
+		};
+		86B3C83F21B658860028E0CD /* BaseViewControllerConfigs */ = {
+			isa = PBXGroup;
+			children = (
+				86B3C83B21B6581E0028E0CD /* PYBaseViewControllerViewConfig.h */,
+				86B3C83C21B6581E0028E0CD /* PYBaseViewControllerViewConfig.m */,
+			);
+			path = BaseViewControllerConfigs;
+			sourceTree = "<group>";
+		};
+		86B3C84621B662FF0028E0CD /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				86B3C84321B662F20028E0CD /* PYBaseTableViewCell.h */,
+				86B3C84421B662F20028E0CD /* PYBaseTableViewCell.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		86C1A39D21992F2900908B7C /* TransitionAnimater */ = {
+			isa = PBXGroup;
+			children = (
+				86C1A39E21992F7400908B7C /* PYTransitionAnimaterViewController.h */,
+				86C1A39F21992F7400908B7C /* PYTransitionAnimaterViewController.m */,
+			);
+			path = TransitionAnimater;
+			sourceTree = "<group>";
+		};
+		86C8F14A219C24610095C3E0 /* CutRoundCorner */ = {
+			isa = PBXGroup;
+			children = (
+				8669A76A21A51EE20080E291 /* PYMaskToBoundsView.h */,
+				8669A76B21A51EE20080E291 /* PYMaskToBoundsView.m */,
+				868237C221A3AB94004F8B8A /* PYAnalysisManager.h */,
+				868237C321A3AB94004F8B8A /* PYAnalysisManager.m */,
+				8669A76D21A520680080E291 /* PYArray.h */,
+				8669A76E21A520680080E291 /* PYArray.m */,
+			);
+			path = CutRoundCorner;
+			sourceTree = "<group>";
+		};
+		86C8F154219C25970095C3E0 /* ShadowAndCornerReadius */ = {
+			isa = PBXGroup;
+			children = (
+				86C8F155219C25C00095C3E0 /* PYShadowAndCornerReadiusViewController.h */,
+				86C8F156219C25C00095C3E0 /* PYShadowAndCornerReadiusViewController.m */,
+				86B8F342219D483400A90305 /* PYMaskToBoundsTableView.h */,
+				86B8F343219D483400A90305 /* PYMaskToBoundsTableView.m */,
+				86B8F346219D49B300A90305 /* PYRoundViewTableView.h */,
+				86B8F347219D49B300A90305 /* PYRoundViewTableView.m */,
+				86C8F158219C26430095C3E0 /* PYShadowAndCornerReadiusTableViewCell.h */,
+				86C8F159219C26430095C3E0 /* PYShadowAndCornerReadiusTableViewCell.m */,
+			);
+			path = ShadowAndCornerReadius;
+			sourceTree = "<group>";
+		};
+		86D2EA3521745B870089551E /* TextViewAndLabel */ = {
+			isa = PBXGroup;
+			children = (
+				86D2EA3621745BB90089551E /* PYTextViewAndLabelController.h */,
+				86D2EA3721745BB90089551E /* PYTextViewAndLabelController.m */,
+				86BD2440219AC33F007BEC31 /* PYStringSizeViewController.h */,
+				86BD2441219AC33F007BEC31 /* PYStringSizeViewController.m */,
+				860C2CBA217DDCD600298C87 /* Book */,
+				860C2CB9217DDC8E00298C87 /* StringSizeVC */,
+			);
+			path = TextViewAndLabel;
+			sourceTree = "<group>";
+		};
+		86EDA45821ABEEBA004408A1 /* GradientView */ = {
+			isa = PBXGroup;
+			children = (
+				86EDA47E21ACF789004408A1 /* GradientView */,
+				86EDA45921ABEED4004408A1 /* PaySuccessViewController.h */,
+				86EDA45A21ABEED4004408A1 /* PaySuccessViewController.m */,
+				86EDA45B21ABEED4004408A1 /* View */,
+			);
+			path = GradientView;
+			sourceTree = "<group>";
+		};
+		86EDA45B21ABEED4004408A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				86EDA45E21ABEED4004408A1 /* PaySuccessHeaderView.h */,
+				86EDA45C21ABEED4004408A1 /* PaySuccessHeaderView.m */,
+				86EDA45F21ABEED4004408A1 /* PaySuccessGuessYouLikeCollectionView.h */,
+				86EDA45D21ABEED4004408A1 /* PaySuccessGuessYouLikeCollectionView.m */,
+				86EDA46721ACE174004408A1 /* PYPaySuccessCuessYouLikeCollectionReusableView.h */,
+				86EDA46821ACE174004408A1 /* PYPaySuccessCuessYouLikeCollectionReusableView.m */,
+				86EDA46421ABEF90004408A1 /* PaySuccessGuessYouLikeCollectionViewCell.h */,
+				86EDA46521ABEF90004408A1 /* PaySuccessGuessYouLikeCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		86EDA47E21ACF789004408A1 /* GradientView */ = {
+			isa = PBXGroup;
+			children = (
+				86EDA47F21ACF79D004408A1 /* PYGradientView.h */,
+				86EDA48021ACF79D004408A1 /* PYGradientView.m */,
+			);
+			path = GradientView;
+			sourceTree = "<group>";
+		};
+		8BEDEACE9E71D34F1F89545F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				025AD06D0F33B365906581F9 /* Pods-PYKit_Example.debug.xcconfig */,
+				1F8CB156B3A14AA035CE0C99 /* Pods-PYKit_Example.release.xcconfig */,
+				7109D373D24FF11A8180B215 /* Pods-PYKit_Tests.debug.xcconfig */,
+				D660458DD37CCA87E5F0EFE2 /* Pods-PYKit_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6003F589195388D20070C39A /* PYKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "PYKit_Example" */;
+			buildPhases = (
+				FDF699A1BCF10D7966BF80EC /* [CP] Check Pods Manifest.lock */,
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+				0EF2B22DF0A31C5548628FAF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PYKit_Example;
+			productName = PYKit;
+			productReference = 6003F58A195388D20070C39A /* PYKit_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6003F5AD195388D20070C39A /* PYKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "PYKit_Tests" */;
+			buildPhases = (
+				5DA397E277E84BFA56CCFCB7 /* [CP] Check Pods Manifest.lock */,
+				6003F5AA195388D20070C39A /* Sources */,
+				6003F5AB195388D20070C39A /* Frameworks */,
+				6003F5AC195388D20070C39A /* Resources */,
+				6748C09DE89B4D57D174FB64 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6003F5B4195388D20070C39A /* PBXTargetDependency */,
+			);
+			name = PYKit_Tests;
+			productName = PYKitTests;
+			productReference = 6003F5AE195388D20070C39A /* PYKit_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PY;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LiPengYue;
+				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = W7835H6QQA;
+					};
+					6003F5AD195388D20070C39A = {
+						TestTargetID = 6003F589195388D20070C39A;
+					};
+				};
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "PYKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6003F589195388D20070C39A /* PYKit_Example */,
+				6003F5AD195388D20070C39A /* PYKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AC195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EF2B22DF0A31C5548628FAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PYKit_Example/Pods-PYKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/PYKit/PYKit.framework",
+				"${BUILT_PRODUCTS_DIR}/PYMethodParser/PYMethodParser.framework",
+				"${BUILT_PRODUCTS_DIR}/PYTransitionAnimater/PYTransitionAnimater.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PYKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PYMethodParser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PYTransitionAnimater.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PYKit_Example/Pods-PYKit_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DA397E277E84BFA56CCFCB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PYKit_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6748C09DE89B4D57D174FB64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PYKit_Tests/Pods-PYKit_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Expecta/Expecta.framework",
+				"${BUILT_PRODUCTS_DIR}/Expecta+Snapshots/Expecta_Snapshots.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+				"${BUILT_PRODUCTS_DIR}/PYGradientView/PYGradientView.framework",
+				"${BUILT_PRODUCTS_DIR}/Specta/Specta.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta_Snapshots.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PYGradientView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Specta.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PYKit_Tests/Pods-PYKit_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDF699A1BCF10D7966BF80EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PYKit_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B8F348219D49B300A90305 /* PYRoundViewTableView.m in Sources */,
+				86EDA46621ABEF90004408A1 /* PaySuccessGuessYouLikeCollectionViewCell.m in Sources */,
+				861E467C216E24060061737F /* PYFoldButtonsViewController.m in Sources */,
+				8669A76F21A520680080E291 /* PYArray.m in Sources */,
+				861E4684216E29130061737F /* PYBaseViewController.m in Sources */,
+				86C1A3A021992F7400908B7C /* PYTransitionAnimaterViewController.m in Sources */,
+				861889C021B632FA00DEDA35 /* BaseNavigationController.m in Sources */,
+				86B3C84521B662F20028E0CD /* PYBaseTableViewCell.m in Sources */,
+				86EDA46921ACE174004408A1 /* PYPaySuccessCuessYouLikeCollectionReusableView.m in Sources */,
+				861E467F216E241D0061737F /* PYViewController.m in Sources */,
+				6003F59E195388D20070C39A /* PYAppDelegate.m in Sources */,
+				8669A76C21A51EE20080E291 /* PYMaskToBoundsView.m in Sources */,
+				86EDA48121ACF79D004408A1 /* PYGradientView.m in Sources */,
+				86EDA46221ABEED4004408A1 /* PaySuccessGuessYouLikeCollectionView.m in Sources */,
+				6003F59A195388D20070C39A /* main.m in Sources */,
+				86BD2442219AC33F007BEC31 /* PYStringSizeViewController.m in Sources */,
+				86D2EA442176E6250089551E /* PYImageView.m in Sources */,
+				8669A79A21A9649C0080E291 /* PYGlobalMethodNotFontHandler.m in Sources */,
+				86C8F157219C25C00095C3E0 /* PYShadowAndCornerReadiusViewController.m in Sources */,
+				86B8F344219D483400A90305 /* PYMaskToBoundsTableView.m in Sources */,
+				86B3C83D21B6581E0028E0CD /* PYBaseViewControllerViewConfig.m in Sources */,
+				86D2EA3821745BB90089551E /* PYTextViewAndLabelController.m in Sources */,
+				86EDA46121ABEED4004408A1 /* PaySuccessHeaderView.m in Sources */,
+				868237C421A3AB94004F8B8A /* PYAnalysisManager.m in Sources */,
+				860C2CBD217DDD2D00298C87 /* PYStringSizeVC.m in Sources */,
+				86C8F15A219C26430095C3E0 /* PYShadowAndCornerReadiusTableViewCell.m in Sources */,
+				8669A77C21A811E30080E291 /* PYMethodParserViewController.m in Sources */,
+				86EDA46021ABEED4004408A1 /* PaySuccessViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AA195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* PYKit_Example */;
+			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F597195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F5B9195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71719F9E1E33DC2100824A3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6003F5BD195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6003F5BE195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6003F5C0195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 025AD06D0F33B365906581F9 /* Pods-PYKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W7835H6QQA;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PYKit/PYKit-Prefix.pch";
+				INFOPLIST_FILE = "PYKit/PYKit-Info.plist";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6003F5C1195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F8CB156B3A14AA035CE0C99 /* Pods-PYKit_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W7835H6QQA;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PYKit/PYKit-Prefix.pch";
+				INFOPLIST_FILE = "PYKit/PYKit-Info.plist";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6003F5C3195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7109D373D24FF11A8180B215 /* Pods-PYKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYKit_Example.app/PYKit_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6003F5C4195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D660458DD37CCA87E5F0EFE2 /* Pods-PYKit_Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYKit_Example.app/PYKit_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "PYKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* Debug */,
+				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "PYKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* Debug */,
+				6003F5C1195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "PYKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C3195388D20070C39A /* Debug */,
+				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}

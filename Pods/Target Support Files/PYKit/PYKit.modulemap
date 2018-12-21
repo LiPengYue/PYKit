@@ -1,0 +1,6 @@
+framework module PYKit {
+  umbrella header "PYKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
