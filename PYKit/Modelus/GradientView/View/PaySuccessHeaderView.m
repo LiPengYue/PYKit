@@ -209,8 +209,6 @@
     // 添加渐变
     self.gradientLayer.frame = self.bounds;
     
-   
-    
 //    _gradientLayer.type = kCAGradientLayerAxial;
 }
 

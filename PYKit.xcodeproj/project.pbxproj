@@ -26,6 +26,7 @@
 		861E467C216E24060061737F /* PYFoldButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 861E467B216E24060061737F /* PYFoldButtonsViewController.m */; };
 		861E467F216E241D0061737F /* PYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 861E467E216E241D0061737F /* PYViewController.m */; };
 		861E4684216E29130061737F /* PYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 861E4683216E29130061737F /* PYBaseViewController.m */; };
+		86279CC721CC90EB00C24775 /* PYGradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86279CC621CC90EB00C24775 /* PYGradientViewController.m */; };
 		8669A76C21A51EE20080E291 /* PYMaskToBoundsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8669A76B21A51EE20080E291 /* PYMaskToBoundsView.m */; };
 		8669A76F21A520680080E291 /* PYArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 8669A76E21A520680080E291 /* PYArray.m */; };
 		8669A77C21A811E30080E291 /* PYMethodParserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8669A77B21A811E30080E291 /* PYMethodParserViewController.m */; };
@@ -95,6 +96,8 @@
 		861E467E216E241D0061737F /* PYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYViewController.m; sourceTree = "<group>"; };
 		861E4682216E29130061737F /* PYBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYBaseViewController.h; sourceTree = "<group>"; };
 		861E4683216E29130061737F /* PYBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYBaseViewController.m; sourceTree = "<group>"; };
+		86279CC521CC90EB00C24775 /* PYGradientViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYGradientViewController.h; sourceTree = "<group>"; };
+		86279CC621CC90EB00C24775 /* PYGradientViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYGradientViewController.m; sourceTree = "<group>"; };
 		8669A76A21A51EE20080E291 /* PYMaskToBoundsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYMaskToBoundsView.h; sourceTree = "<group>"; };
 		8669A76B21A51EE20080E291 /* PYMaskToBoundsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYMaskToBoundsView.m; sourceTree = "<group>"; };
 		8669A76D21A520680080E291 /* PYArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYArray.h; sourceTree = "<group>"; };
@@ -416,6 +419,8 @@
 				86EDA45921ABEED4004408A1 /* PaySuccessViewController.h */,
 				86EDA45A21ABEED4004408A1 /* PaySuccessViewController.m */,
 				86EDA45B21ABEED4004408A1 /* View */,
+				86279CC521CC90EB00C24775 /* PYGradientViewController.h */,
+				86279CC621CC90EB00C24775 /* PYGradientViewController.m */,
 			);
 			path = GradientView;
 			sourceTree = "<group>";
@@ -680,6 +685,7 @@
 				860C2CBD217DDD2D00298C87 /* PYStringSizeVC.m in Sources */,
 				86C8F15A219C26430095C3E0 /* PYShadowAndCornerReadiusTableViewCell.m in Sources */,
 				8669A77C21A811E30080E291 /* PYMethodParserViewController.m in Sources */,
+				86279CC721CC90EB00C24775 /* PYGradientViewController.m in Sources */,
 				86EDA46021ABEED4004408A1 /* PaySuccessViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
